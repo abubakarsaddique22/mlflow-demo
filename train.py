@@ -1,4 +1,4 @@
-import numpy as np 
+# import numpy as np 
 import seaborn as sns
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
@@ -8,8 +8,11 @@ import mlflow
 import matplotlib.pyplot as plt
 import os 
 # from mlflow.sklearn
+import dagshub
+dagshub.init(repo_owner='abubakarsaddique3434', repo_name='mlflow-demo', mlflow=True)
 
-mlflow.set_tracking_uri("http://localhost:5000")
+mlflow.set_tracking_uri("https://dagshub.com/abubakarsaddique3434/mlflow-demo.mlflow")
+
 
 # Load Iris dataset from seaborn
 iris = sns.load_dataset('iris')
@@ -30,7 +33,7 @@ random_state = 42
 os.makedirs("artifacts", exist_ok=True)
 # implement mlflow
 mlflow.set_experiment('Iris_experiment')
-with mlflow.start_run(run_id='1e226844a590469298cff977a104ab9f',experiment_id='219294719716050030'):
+with mlflow.start_run():
     # Initialize Random Forest model
     rf = DecisionTreeClassifier(max_depth=max_depth, random_state=random_state)
 
