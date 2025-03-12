@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/abubakar/Desktop/mlflow-demo/mlruns/219294719716050030/1fe8cbf5763c4606a79d245aeca9ff02/artifacts
+end_time: 1741538660146
+entry_point_name: ''
+experiment_id: '219294719716050030'
+lifecycle_stage: active
+run_id: 1fe8cbf5763c4606a79d245aeca9ff02
+run_name: grandiose-boar-841
+run_uuid: 1fe8cbf5763c4606a79d245aeca9ff02
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741538658824
+status: 3
+tags: []
+user_id: abubakar

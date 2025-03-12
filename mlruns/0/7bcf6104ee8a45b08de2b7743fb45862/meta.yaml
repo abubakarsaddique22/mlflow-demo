@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/7bcf6104ee8a45b08de2b7743fb45862/artifacts
+end_time: 1741527878841
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7bcf6104ee8a45b08de2b7743fb45862
+run_name: rumbling-flea-800
+run_uuid: 7bcf6104ee8a45b08de2b7743fb45862
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741527878058
+status: 3
+tags: []
+user_id: abubakar
